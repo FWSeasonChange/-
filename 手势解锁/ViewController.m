@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "LocalView.h"
 
-@interface ViewController ()
+@interface ViewController ()<LocalViewDelegate>
+@property (nonatomic, copy) NSString  *passWord;
 
 @end
 
@@ -16,12 +18,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+ 
+    LocalView *password = [[LocalView alloc]init];
+    password.delegate = self;
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)lockViewDidClickWithView:(LocalView *)localView andPassWord:(NSString *)passWord
+{
+    
 }
+
 
 @end

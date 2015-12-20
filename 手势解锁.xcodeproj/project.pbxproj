@@ -14,6 +14,7 @@
 		879574CE1B63865A007FBCA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879574CD1B63865A007FBCA2 /* Images.xcassets */; };
 		879574D11B63865A007FBCA2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 879574CF1B63865A007FBCA2 /* LaunchScreen.xib */; };
 		879574DD1B63865A007FBCA2 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 879574DC1B63865A007FBCA2 /* ____Tests.m */; };
+		879574E81B6387F9007FBCA2 /* LocalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 879574E71B6387F8007FBCA2 /* LocalView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		879574D61B63865A007FBCA2 /* 手势解锁Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "手势解锁Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		879574DB1B63865A007FBCA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		879574DC1B63865A007FBCA2 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		879574E61B6387F8007FBCA2 /* LocalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalView.h; sourceTree = "<group>"; };
+		879574E71B6387F8007FBCA2 /* LocalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		879574B41B63865A007FBCA2 = {
 			isa = PBXGroup;
 			children = (
+				879574E61B6387F8007FBCA2 /* LocalView.h */,
+				879574E71B6387F8007FBCA2 /* LocalView.m */,
 				879574BF1B63865A007FBCA2 /* 手势解锁 */,
 				879574D91B63865A007FBCA2 /* 手势解锁Tests */,
 				879574BE1B63865A007FBCA2 /* Products */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				879574E81B6387F9007FBCA2 /* LocalView.m in Sources */,
 				879574C91B63865A007FBCA2 /* ViewController.m in Sources */,
 				879574C61B63865A007FBCA2 /* AppDelegate.m in Sources */,
 				879574C31B63865A007FBCA2 /* main.m in Sources */,
